@@ -15,6 +15,9 @@
 		3E5D27A41DE68136006235A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5D27A21DE68136006235A6 /* LaunchScreen.storyboard */; };
 		3E5D27AF1DE68136006235A6 /* WKWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D27AE1DE68136006235A6 /* WKWebViewTests.m */; };
 		3E5D27BA1DE68136006235A6 /* WKWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D27B91DE68136006235A6 /* WKWebViewUITests.m */; };
+		3E5D27C81DE68946006235A6 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 3E5D27C71DE68946006235A6 /* test.html */; };
+		3E5D27CB1DE6899C006235A6 /* OCJSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D27CA1DE6899C006235A6 /* OCJSHelper.m */; };
+		3E5D27D21DE84B9E006235A6 /* 123.html in Resources */ = {isa = PBXBuildFile; fileRef = 3E5D27D11DE84B9E006235A6 /* 123.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		3E5D27B51DE68136006235A6 /* WKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5D27B91DE68136006235A6 /* WKWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewUITests.m; sourceTree = "<group>"; };
 		3E5D27BB1DE68136006235A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5D27C71DE68946006235A6 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		3E5D27C91DE6899C006235A6 /* OCJSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCJSHelper.h; sourceTree = "<group>"; };
+		3E5D27CA1DE6899C006235A6 /* OCJSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCJSHelper.m; sourceTree = "<group>"; };
+		3E5D27D11DE84B9E006235A6 /* 123.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 123.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,10 @@
 				3E5D27981DE68136006235A6 /* AppDelegate.m */,
 				3E5D279A1DE68136006235A6 /* ViewController.h */,
 				3E5D279B1DE68136006235A6 /* ViewController.m */,
+				3E5D27C91DE6899C006235A6 /* OCJSHelper.h */,
+				3E5D27CA1DE6899C006235A6 /* OCJSHelper.m */,
+				3E5D27D11DE84B9E006235A6 /* 123.html */,
+				3E5D27C71DE68946006235A6 /* test.html */,
 				3E5D279D1DE68136006235A6 /* Main.storyboard */,
 				3E5D27A01DE68136006235A6 /* Assets.xcassets */,
 				3E5D27A21DE68136006235A6 /* LaunchScreen.storyboard */,
@@ -243,8 +254,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E5D27C81DE68946006235A6 /* test.html in Resources */,
 				3E5D27A41DE68136006235A6 /* LaunchScreen.storyboard in Resources */,
 				3E5D27A11DE68136006235A6 /* Assets.xcassets in Resources */,
+				3E5D27D21DE84B9E006235A6 /* 123.html in Resources */,
 				3E5D279F1DE68136006235A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +285,7 @@
 			files = (
 				3E5D279C1DE68136006235A6 /* ViewController.m in Sources */,
 				3E5D27991DE68136006235A6 /* AppDelegate.m in Sources */,
+				3E5D27CB1DE6899C006235A6 /* OCJSHelper.m in Sources */,
 				3E5D27961DE68136006235A6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +512,7 @@
 				3E5D27C01DE68136006235A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E5D27C11DE68136006235A6 /* Build configuration list for PBXNativeTarget "WKWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				3E5D27C31DE68136006235A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E5D27C41DE68136006235A6 /* Build configuration list for PBXNativeTarget "WKWebViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				3E5D27C61DE68136006235A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
